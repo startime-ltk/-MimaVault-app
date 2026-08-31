@@ -1,0 +1,22 @@
+# Gradle
+.gradle/
+build/
+
+# 本地配置
+local.properties
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# 构建日志
+*.log
+
+# 系统
+.DS_Store
+Thumbs.db
+
+# 密钥与敏感文件
+*.jks
+*.keystore
