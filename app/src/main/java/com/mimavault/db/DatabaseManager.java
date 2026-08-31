@@ -13,7 +13,7 @@ import java.util.List;
 
 /**
  * SQLite 数据库管理，与 PC 端 DatabaseManager 逐字段对齐
- * 表结构与 PC 端 data/PasswordMaster.db 完全一致
+ * 表结构与 PC 端密匣 MimaVault 数据库完全一致
  */
 public class DatabaseManager {
 

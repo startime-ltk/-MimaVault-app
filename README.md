@@ -1,8 +1,8 @@
-# 密匣 MimaVault（Password Master App）
+# 密匣 MimaVault（Android App）
 
 本地加密密码管理器 · Android 端（原生 Java）
 
-与 PC 端 Password Master 数据 1:1 互通：`.pmaster` 备份文件、加密参数、数据库结构完全兼容，支持双向导入导出与二维码传输。
+与 PC 端密匣 MimaVault 数据 1:1 互通：`.pmaster` 备份文件、加密参数、数据库结构完全兼容，支持双向导入导出与二维码传输。
 
 > 项目定位：轻量级学习与参赛作品，本地优先，不做云同步，不商业化。
 
@@ -32,7 +32,7 @@
 ### 安装
 
 - 要求：Android 7.0（API 24）及以上
-- 安装包：`apk/MimaVault-A8.30.1.apk`（开发签名包，安装时需允许"未知来源"）
+- 安装包：`apk/MimaVault-A8.31.1.apk`（开发签名包，安装时需允许"未知来源"）
 - 首次启动设置主密码：**主密码即保险库密钥，忘记无法找回**
 
 ### 与 PC 端互通
@@ -68,7 +68,7 @@ Password-Master-app/
 │       │   └── util/         # 工具（剪贴板/手势解析/图片/密码强度）
 │       └── res/              # 布局 / 资源
 ├── apk/
-│   └── MimaVault-A8.30.1.apk # Android 安装包
+│   └── MimaVault-A8.31.1.apk # Android 安装包
 ├── CHANGELOG.md              # 更新日志
 └── README.md
 ```

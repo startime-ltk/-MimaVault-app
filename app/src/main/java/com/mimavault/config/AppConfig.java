@@ -9,7 +9,7 @@ import java.io.File;
 /**
  * 数据目录定位（安卓端）
  * 数据根：filesDir/data/，与 PC 端 data/ 布局对应：
- *   data/PasswordMaster.db
+ *   data/mimavault.db
  *   data/images/
  */
 public final class AppConfig {
@@ -32,7 +32,13 @@ public final class AppConfig {
     }
 
     public static File dbFile() {
-        return new File(dataDir(), "PasswordMaster.db");
+        File db = new File(dataDir(), "mimavault.db");
+        File legacy = new File(dataDir(), "PasswordMaster.db");
+        if (!db.exists() && legacy.exists()) {
+            //noinspection ResultOfMethodCallIgnored
+            legacy.renameTo(db);
+        }
+        return db;
     }
 
     /** 相对路径（images/xxx.png）解析为绝对路径，与 PC 端 resolveImagePath 一致 */

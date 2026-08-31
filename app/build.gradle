@@ -11,7 +11,7 @@ android {
         minSdk 24
         targetSdk 36
         versionCode 1
-        versionName "A8.30.1"
+        versionName "A8.31.1"
     }
 
     buildTypes {
