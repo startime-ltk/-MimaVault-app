@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/bg_gradient"
@@ -86,7 +86,8 @@
             android:background="@drawable/bg_button_primary"
             android:text="@string/setup_done"
             android:textColor="@color/white"
-            android:textSize="16sp" />
+            android:textSize="16sp" 
+                app:backgroundTint="@null"/>
     </LinearLayout>
 
     <!-- 解锁 -->
@@ -118,7 +119,8 @@
             android:background="@drawable/bg_button_primary"
             android:text="@string/unlock"
             android:textColor="@color/white"
-            android:textSize="16sp" />
+            android:textSize="16sp" 
+                app:backgroundTint="@null"/>
 
         <Button
             android:id="@+id/btnBiometric"
@@ -129,7 +131,8 @@
             android:text="@string/unlock_with_biometric"
             android:textColor="@color/primary"
             android:textSize="15sp"
-            android:visibility="gone" />
+            android:visibility="gone" 
+                app:backgroundTint="@null"/>
     </LinearLayout>
 
     <!-- 首次设置时：启用指纹开关 -->

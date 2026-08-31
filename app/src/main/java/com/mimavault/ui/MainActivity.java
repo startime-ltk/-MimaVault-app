@@ -145,7 +145,7 @@ public class MainActivity extends AppCompatActivity {
             chip.setText(c);
             chip.setTextSize(13);
             chip.setPadding(dp(16), dp(7), dp(16), dp(7));
-            chip.setTextColor(getColor(R.color.white));
+            chip.setTextColor(getColor(R.color.text_secondary));
             chip.setBackgroundResource(R.drawable.bg_chip);
             LinearLayout.LayoutParams lp = new LinearLayout.LayoutParams(
                     LinearLayout.LayoutParams.WRAP_CONTENT, LinearLayout.LayoutParams.WRAP_CONTENT);

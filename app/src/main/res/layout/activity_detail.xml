@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/bg_page"
@@ -24,7 +24,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-medium"
-                android:textColor="@color/white"
+                android:textColor="@color/text_main"
                 android:textSize="20sp" />
 
             <TextView
@@ -35,7 +35,7 @@
                 android:background="@drawable/bg_chip"
                 android:paddingHorizontal="12dp"
                 android:paddingVertical="3dp"
-                android:textColor="@color/white"
+                android:textColor="@color/primary"
                 android:textSize="12sp" />
         </LinearLayout>
 
@@ -168,7 +168,8 @@
                 android:layout_marginTop="14dp"
                 android:background="@drawable/bg_button_primary"
                 android:text="@string/copy_password"
-                android:textColor="@color/white" />
+                android:textColor="@color/white" 
+                app:backgroundTint="@null"/>
         </LinearLayout>
 
         <!-- 手势 -->
@@ -250,7 +251,8 @@
                 android:layout_weight="1"
                 android:background="@drawable/bg_button_primary"
                 android:text="@string/edit"
-                android:textColor="@color/white" />
+                android:textColor="@color/white" 
+                app:backgroundTint="@null"/>
 
             <Button
                 android:id="@+id/btnDelete"
@@ -260,7 +262,8 @@
                 android:layout_weight="1"
                 android:background="@drawable/bg_input"
                 android:text="@string/delete"
-                android:textColor="@color/warning" />
+                android:textColor="@color/warning" 
+                app:backgroundTint="@null"/>
         </LinearLayout>
     </LinearLayout>
 </ScrollView>

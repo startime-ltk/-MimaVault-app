@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/bg_page"
@@ -61,7 +61,8 @@
             android:layout_weight="1"
             android:background="@drawable/bg_input"
             android:text="@string/prev"
-            android:textColor="@color/primary" />
+            android:textColor="@color/primary" 
+                app:backgroundTint="@null"/>
 
         <Button
             android:id="@+id/btnQrNext"
@@ -71,6 +72,7 @@
             android:layout_weight="1"
             android:background="@drawable/bg_button_primary"
             android:text="@string/next"
-            android:textColor="@color/white" />
+            android:textColor="@color/white" 
+                app:backgroundTint="@null"/>
     </LinearLayout>
 </LinearLayout>
