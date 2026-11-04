@@ -39,7 +39,7 @@
             android:layout_weight="1"
             android:background="@drawable/bg_button_primary"
             android:text="@string/qr_scan"
-            android:textColor="@color/white" 
+            android:textColor="@color/white"
                 app:backgroundTint="@null"/>
 
         <Button
@@ -50,7 +50,7 @@
             android:layout_weight="1"
             android:background="@drawable/bg_input"
             android:text="@string/qr_paste"
-            android:textColor="@color/primary" 
+            android:textColor="@color/primary"
                 app:backgroundTint="@null"/>
     </LinearLayout>
 
@@ -61,6 +61,6 @@
         android:layout_marginTop="12dp"
         android:background="@drawable/bg_input"
         android:text="@string/qr_import_now"
-        android:textColor="@color/primary" 
+        android:textColor="@color/primary"
                 app:backgroundTint="@null"/>
 </LinearLayout>

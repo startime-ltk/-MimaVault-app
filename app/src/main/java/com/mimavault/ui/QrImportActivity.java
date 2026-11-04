@@ -131,13 +131,13 @@ public class QrImportActivity extends AppCompatActivity {
     }
 
     private void updateStatus() {
-        String s;
+        String statusText;
         if (totalSegments == 0) {
-            s = "未开始扫描";
+            statusText = "未开始扫描";
         } else {
-            s = "已收集 " + collected.size() + " / " + totalSegments + " 段";
+            statusText = "已收集 " + collected.size() + " / " + totalSegments + " 段";
         }
-        tvStatus.setText(s);
+        tvStatus.setText(statusText);
     }
 
     private void doImport(String fullText) {

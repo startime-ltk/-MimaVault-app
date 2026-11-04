@@ -61,7 +61,7 @@
             android:layout_weight="1"
             android:background="@drawable/bg_input"
             android:text="@string/prev"
-            android:textColor="@color/primary" 
+            android:textColor="@color/primary"
                 app:backgroundTint="@null"/>
 
         <Button
@@ -72,7 +72,7 @@
             android:layout_weight="1"
             android:background="@drawable/bg_button_primary"
             android:text="@string/next"
-            android:textColor="@color/white" 
+            android:textColor="@color/white"
                 app:backgroundTint="@null"/>
     </LinearLayout>
 </LinearLayout>

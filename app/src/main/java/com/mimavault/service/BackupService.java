@@ -49,18 +49,18 @@ public final class BackupService {
                 @Override
                 public Date deserialize(com.google.gson.JsonElement json, java.lang.reflect.Type type,
                                         com.google.gson.JsonDeserializationContext context) throws com.google.gson.JsonParseException {
-                    String s = json.getAsString().replace('\u202F', ' ').replace('\u00A0', ' ').trim();
+                    String dateText = json.getAsString().replace('\u202F', ' ').replace('\u00A0', ' ').trim();
                     for (java.text.SimpleDateFormat f : FORMATS) {
                         try {
-                            return f.parse(s);
+                            return f.parse(dateText);
                         } catch (Exception ignored) {
                         }
                     }
                     try {
-                        return new Date(Long.parseLong(s));
+                        return new Date(Long.parseLong(dateText));
                     } catch (Exception ignored) {
                     }
-                    throw new com.google.gson.JsonParseException("无法解析日期: " + s);
+                    throw new com.google.gson.JsonParseException("无法解析日期: " + dateText);
                 }
             })
             .create();
