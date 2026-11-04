@@ -1,5 +1,15 @@
 # 更新日志
 
+## A8.31.2 代码规范清理（2026-11-03）
+
+去 AI 化与代码规范化，不改变任何功能。
+
+### 变更
+
+- 清理布局 XML 行尾空格（6 个布局文件）
+- 无语义局部变量改名：BackupService 日期解析 `s` → `dateText`，QrImportActivity 状态文案 `s` → `statusText`
+- versionCode 1 → 2，versionName A8.31.1 → A8.31.2，strings.xml 版本号同步更新
+
 ## A8.31.1 品牌统一（2026-08-31）
 
 项目统一命名为密匣 MimaVault，清除全部旧品牌名残留。

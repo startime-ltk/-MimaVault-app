@@ -85,7 +85,7 @@
                     android:paddingHorizontal="14dp"
                     android:text="@string/generate"
                     android:textColor="@color/primary"
-                    android:textSize="13sp" 
+                    android:textSize="13sp"
                 app:backgroundTint="@null"/>
             </LinearLayout>
 
@@ -172,7 +172,7 @@
                     android:background="@drawable/bg_button_primary"
                     android:text="@string/gesture_set"
                     android:textColor="@color/white"
-                    android:textSize="13sp" 
+                    android:textSize="13sp"
                 app:backgroundTint="@null"/>
 
                 <Button
@@ -184,7 +184,7 @@
                     android:background="@drawable/bg_input"
                     android:text="@string/gesture_clear"
                     android:textColor="@color/primary"
-                    android:textSize="13sp" 
+                    android:textSize="13sp"
                 app:backgroundTint="@null"/>
             </LinearLayout>
         </LinearLayout>
@@ -240,7 +240,7 @@
                     android:background="@drawable/bg_button_primary"
                     android:text="@string/image_pick"
                     android:textColor="@color/white"
-                    android:textSize="13sp" 
+                    android:textSize="13sp"
                 app:backgroundTint="@null"/>
 
                 <Button
@@ -252,7 +252,7 @@
                     android:background="@drawable/bg_input"
                     android:text="@string/image_clear"
                     android:textColor="@color/primary"
-                    android:textSize="13sp" 
+                    android:textSize="13sp"
                 app:backgroundTint="@null"/>
             </LinearLayout>
         </LinearLayout>
@@ -272,7 +272,7 @@
                 android:layout_weight="1"
                 android:background="@drawable/bg_input"
                 android:text="@string/cancel"
-                android:textColor="@color/text_secondary" 
+                android:textColor="@color/text_secondary"
                 app:backgroundTint="@null"/>
 
             <Button
@@ -283,7 +283,7 @@
                 android:layout_weight="1"
                 android:background="@drawable/bg_button_primary"
                 android:text="@string/save"
-                android:textColor="@color/white" 
+                android:textColor="@color/white"
                 app:backgroundTint="@null"/>
         </LinearLayout>
     </LinearLayout>
