@@ -31,6 +31,7 @@ import com.mimavault.model.Entry;
 import com.mimavault.service.BackupService;
 import com.mimavault.service.PasswordService;
 import com.mimavault.service.VaultSession;
+import com.mimavault.util.UpdateChecker;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -109,6 +110,7 @@ public class MainActivity extends AppCompatActivity {
 
         fabAdd.setOnClickListener(v -> EditEntryActivity.start(this, -1));
         buildCategoryBar();
+        UpdateChecker.check(this, true);
 
         etSearch.addTextChangedListener(new TextWatcher() {
             @Override
@@ -181,6 +183,7 @@ public class MainActivity extends AppCompatActivity {
                 getString(R.string.import_menu),
                 getString(R.string.qr_export),
                 getString(R.string.qr_import),
+                getString(R.string.check_update),
                 getString(R.string.logout)
         };
         new AlertDialog.Builder(this)
@@ -200,6 +203,9 @@ public class MainActivity extends AppCompatActivity {
                             QrImportActivity.start(this);
                             break;
                         case 4:
+                            UpdateChecker.check(this, false);
+                            break;
+                        case 5:
                             confirmLogout();
                             break;
                     }
