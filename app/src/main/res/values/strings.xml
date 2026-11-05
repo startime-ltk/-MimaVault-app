@@ -2,8 +2,11 @@
 <resources>
     <string name="app_name">密匣 MimaVault</string>
     <string name="edit">编辑</string>
-    <string name="version_name">A8.31.2</string>
-    <string name="android_version">Android 版 · vA8.31.2</string>
+    <string name="version_name">A8.31.3</string>
+    <string name="android_version">Android 版 · vA8.31.3</string>
+    <string name="check_update">检查更新</string>
+    <string name="update_latest">已是最新版本</string>
+    <string name="update_failed">检查更新失败，请稍后重试</string>
     <string name="label_platform">平台 / 网站</string>
     <string name="label_account">账号</string>
     <string name="label_password">密码</string>
