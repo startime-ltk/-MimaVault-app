@@ -6,6 +6,16 @@
 
 > 项目定位：轻量级学习与参赛作品，本地优先，不做云同步，不商业化。
 
+## 版本顺序
+
+| 顺序 | 版本 | 说明 |
+| --- | --- | --- |
+| 1（当前版，在前） | **A8.31.3** | `main` 分支 / `vA8.31.3` Release，**请下载此版本** |
+| 2（历史归档，在后） | A9.x（A9.9.16 / A9.18.0） | 2026 年 8–10 月旧实现，已停止维护；版本号数字更大但更旧 |
+
+> A9.x 旧线源码在 `archive/android-a9` 分支（仅源码，已过滤 APK 与截图），归档安装包在 `legacy/A9.9.16` Release（标记为 Pre-release，请勿下载）。
+> 该线原属主仓 `MimaVault/android` 分支，完整提交历史保留在主仓 tag `legacy/android-a9-head`。
+
 ## 功能特性
 
 | 模块 | 说明 |
@@ -32,7 +42,8 @@
 ### 安装
 
 - 要求：Android 7.0（API 24）及以上
-- 安装包：`apk/MimaVault-A8.31.1.apk`（开发签名包，安装时需允许"未知来源"）
+- 安装包：**[MimaVault-A8.31.3.apk](https://github.com/startime-ltk/-MimaVault-app/releases/tag/vA8.31.3)**（5.23 MB，可直接覆盖安装；需允许"未知来源"）
+- 固定直链：[apk 仓 mimavault-android-latest](https://github.com/startime-ltk/apk/releases/tag/mimavault-android-latest)，每次发版覆盖，链接不变
 - 首次启动设置主密码：**主密码即保险库密钥，忘记无法找回**
 
 ### 与 PC 端互通
@@ -68,7 +79,7 @@ Password-Master-app/
 │       │   └── util/         # 工具（剪贴板/手势解析/图片/密码强度）
 │       └── res/              # 布局 / 资源
 ├── apk/
-│   └── MimaVault-A8.31.1.apk # Android 安装包
+│   └── MimaVault-A8.31.1.apk # 旧开发包（最新包见 Releases）
 ├── CHANGELOG.md              # 更新日志
 └── README.md
 ```
