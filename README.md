@@ -13,7 +13,7 @@
 | 1（当前版，在前） | **A8.31.3** | `main` 分支 / `vA8.31.3` Release，**请下载此版本** |
 | 2（历史归档，在后） | A9.x（A9.9.16 / A9.18.0） | 2026 年 8–10 月旧实现，已停止维护；版本号数字更大但更旧 |
 
-> A9.x 旧线源码在 `archive/android-a9` 分支（仅源码，已过滤 APK 与截图），归档安装包在 `legacy/A9.9.16` Release（标记为 Pre-release，请勿下载）。
+> A9.x 旧线源码在 `archive/android-a9` 分支（仅源码，已过滤 APK 与截图），归档安装包存于 `legacy/A9.9.16` 标签的草稿 Release（不进入公开列表，仅供回溯，请勿下载）。
 > 该线原属主仓 `MimaVault/android` 分支，完整提交历史保留在主仓 tag `legacy/android-a9-head`。
 
 ## 功能特性
